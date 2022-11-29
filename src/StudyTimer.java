@@ -158,8 +158,8 @@ public class StudyTimer extends Thread{
         String[] st=new String[3];
 
         it[2] = time;
-        it[0]=it[2]/60;
-        it[1]=it[1]/60;
+        it[1]=it[2]/60;
+        it[0]=it[1]/60;
         it[2]=it[2]%60;
         it[1]=it[1]%60;
 
